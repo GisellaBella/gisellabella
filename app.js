@@ -1,6 +1,7 @@
 //WDI PROJECT 1 SUBMISSION BY GISELLA WALTER
 window.onload=function() {
 console.log("Javascript seems to be working.");
+shuffle();
 
     //names must match image name exactly, in order to create card. HTML is set up to take 18 cardsInPlay only.
   var paintingsArray = ['munch1','munch1','warhol1',
