@@ -1,0 +1,55 @@
+* {
+  font-family: 'Reem Kufi', sans-serif;
+  color: #393939;
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #BEBEBE;
+}
+
+.alertMessageBox {
+  height:150px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+h1 {
+font-size: 40px;
+font-weight: 600;
+margin-top: 5px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin:0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  margin: 5px;
+  border: 5px solid #FEFFFF;
+  background: url("imgs/cardback.png");
+  background-position: center;
+  vertical-align: top;
+}
+
+img {
+  width:100px;
+  height:150px;
+  
+}
+
+.matched {
+  background-color: white;
+}
