@@ -26,7 +26,7 @@ console.log("Javascript seems to be working.");
   }
 
   function shuffle (cardsInPlay) { //array shuffler
-    var cardsInPlayLength = cardsInPlay.length;
+    var cardsInPlayLength = paintingsArray.length;
     var index;
     var temp;
     while (cardsInPlayLength > 0) {
