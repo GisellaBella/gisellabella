@@ -21,7 +21,7 @@ console.log("Javascript seems to be working.");
   var shuffledArray = shuffle(paintingsArray); //need to add some sort of shuffling method here
   for (var i = 0; i<cardsInPlay.length; i++) {
     console.log(cardsInPlay[i]);
-    cardsInPlay[i].setAttribute("artistValue", shuffledArray[i]);
+    cardsInPlay[i].setAttribute("artistValue", paintingsArray[i]);
     cardsInPlay[i].addEventListener("click", flip);
   }
 
