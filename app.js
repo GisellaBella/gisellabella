@@ -1,7 +1,6 @@
 //WDI PROJECT 1 SUBMISSION BY GISELLA WALTER
 window.onload=function() {
 console.log("Javascript seems to be working.");
-shuffle();
 
     //names must match image name exactly, in order to create card. HTML is set up to take 18 cardsInPlay only.
   var paintingsArray = ['munch1','munch1','warhol1',
@@ -18,9 +17,11 @@ shuffle();
   var counter = 0;//Keeping track of how many cardsInPlay have been clicked in a turn
 
   var cardsInPlay = document.getElementsByTagName("li");
+  console.log(cardsInPlay);
   var shuffledArray = shuffle(paintingsArray); //need to add some sort of shuffling method here
-  for (var i = 0; i<paintingsArray.length; i++) {
-    cardsInPlay[i].setAttribute("artistValue", paintingsArray[i]);
+  for (var i = 0; i<cardsInPlay.length; i++) {
+    console.log(cardsInPlay[i]);
+    cardsInPlay[i].setAttribute("artistValue", shuffledArray[i]);
     cardsInPlay[i].addEventListener("click", flip);
   }
 
