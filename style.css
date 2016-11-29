@@ -9,10 +9,10 @@ body {
   background-color: #BEBEBE;
 }
 
-.alertMessageBox {
-  height:150px;
+#alertMessageBox {
+  height:75px;
   margin-top: 0px;
-  margin-bottom: 25px;
+
 }
 
 h1 {
